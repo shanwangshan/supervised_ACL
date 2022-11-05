@@ -13,4 +13,4 @@ alpha	clean	noisy_small	tt_all	noisy
 ACL = alpha*L1 + (1-alpha)*L2
 
 L1: cross entropy loss
-L2: angular margin closs
+L2: angular margin loss

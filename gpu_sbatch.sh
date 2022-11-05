@@ -9,7 +9,7 @@
 #SBATCH --cpus-per-task=16
 ##SBATCH --mem-per-cpu=8000
 #SBATCH --gres=gpu:a100:1
-#SBATCH --array=1-1
+#SBATCH --array=1-10
 ##SBATCH --array=0-1
 ##SBATCH  --nodelist=r14g06
 ##module load gcc/8.3.0 cuda/10.1.168
