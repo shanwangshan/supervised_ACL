@@ -24,20 +24,21 @@ To test, e.g., clean data type and $\alpha$ is 5, run the command below,
 
 The results of different data type and different alpha values are shown in the tabels below,
 
-| alpha                         | clean                           | all                             | noisy                           | noisy\_small                    |
-|-------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
-| 0.1                           | 0.56                            | 0.674                           | 0.649                           | 0.345                           |
-| 0.2                           | 0.614                           | 0.698                           | 0.654                           | <font color='red'>0.399</font>  |
-| 0.3                           | 0.61                            | 0.719                           | <font color='red'>0.683</font>  | 0.393                           |
-| 0.4                           | 0.621                           | 0.727                           | <font color='red'>0.683</font>  | 0.335                           |
-| 0.5                           | <font color='red'>0.645</font>  | 0.712                           | 0.677                           | 0.39                            |
-| 0.6                           | 0.63                            | 0.713                           | 0.669                           | 0.333                           |
-| 0.7                           | 0.579                           | <font color='red'>0.736</font>  | 0.675                           | 0.35                            |
-| 0.8                           | 0.581                           | 0.727                           | 0.671                           | 0.316                           |
-| 0.9                           | 0.586                           | 0.716                           | 0.661                           | 0.331                           |
-| <font color='gray'>1.0</font> | <font color='gray'>0.602</font> | <font color='gray'>0.701</font> | <font color='gray'>0.664</font> | <font color='gray'>0.337</font> |
+| alpha | clean     | all       | noisy     | noisy\_small |
+|-------|-----------|-----------|-----------|--------------|
+| 0.1   | 0.56      | 0.674     | 0.649     | 0.345        |
+| 0.2   | 0.614     | 0.698     | 0.654     | **0.399**    |
+| 0.3   | 0.61      | 0.719     | **0.683** | 0.393        |
+| 0.4   | 0.621     | 0.727     | **0.683** | 0.335        |
+| 0.5   | **0.645** | 0.712     | 0.677     | 0.39         |
+| 0.6   | 0.63      | 0.713     | 0.669     | 0.333        |
+| 0.7   | 0.579     | **0.736** | 0.675     | 0.35         |
+| 0.8   | 0.581     | 0.727     | 0.671     | 0.316        |
+| 0.9   | 0.586     | 0.716     | 0.661     | 0.331        |
+| *1.0* | *0.602*   | *0.701*   | *0.664*   | *0.337*      |
 
-Gray color numbers represent the baseline results where alpha is being 1, and only CEL is used during the training process. Red color numbers show the best results obtained.
+
+Italic numbers represent the baseline results where alpha is being 1, and only CEL is used during the training process. Bold numbers show the best results obtained.
 
 # Acknowledgement
 This code is adapted from [here](https://github.com/edufonseca/icassp19) by  Fonseca et al.
