@@ -1,6 +1,7 @@
 # Supervised_ACL
 
-This git repo presents the pytorch-based implementation of the supervised angular contrastive loss from paper *"Self-supervised learning of audio representations using angular contrastive loss"*.
+This git repo presents the pytorch-based implementation of the supervised angular contrastive loss from paper *"Self-supervised learning of audio representations using angular contrastive loss"*. The motivation of applying ACL is demonstrated [here](https://github.com/shanwangshan/problems_of_infonce), the Self-supervised ACL is implementated [here](https://github.com/shanwangshan/Self_supervised_ACL), and the feature quality analysis is presented [here](https://github.com/shanwangshan/uniformity_tolerance).
+
 
 To create the features and save them in *.hdf5* format, run the command below,
 
@@ -37,7 +38,6 @@ The results of different data type and different alpha values are shown in the t
 | 0.9   | 0.586       | 0.716       | 0.661       | 0.331        |
 | *1.0* | *0.602*     | *0.701*     | *0.664*     | *0.337*      |
 
-The motivation of applying ACL is demonstrated [here](https://github.com/shanwangshan/problems_of_infonce), the Self-supervised ACL is implementated [here](https://github.com/shanwangshan/Self_supervised_ACL), and the feature quality analysis is presented [here](https://github.com/shanwangshan/uniformity_tolerance).
 
 # Acknowledgement
 This code is adapted from [here](https://github.com/edufonseca/icassp19) by  Fonseca et al.
